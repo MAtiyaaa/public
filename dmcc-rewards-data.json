@@ -5,10 +5,10 @@
       "name": "TechCorp Dubai",
       "tier": "gold",
       "points": {
-        "total": 5000,
+        "total": 4000,
         "earned": 3500,
         "bonus": 1000,
-        "burned": 500,
+        "burned": 1500,
         "purchased": 1000
       },
       "history": [
@@ -46,6 +46,13 @@
           "points": -500,
           "type": "redemption",
           "balance": 5000
+        },
+        {
+          "date": "2025-09-10",
+          "description": "Redeemed: Business Class Upgrade",
+          "points": -1000,
+          "type": "redemption",
+          "balance": 4000
         }
       ],
       "vouchers": [
@@ -58,6 +65,16 @@
           "redeemedDate": "2025-02-05",
           "expiryDate": "2025-03-01",
           "points": 500
+        },
+        {
+          "code": "DMCC-TECHCORP-MFDWRDGT",
+          "partner": "Emirates Airlines",
+          "offer": "Business Class Upgrade",
+          "status": "generated",
+          "generatedDate": "2025-09-10",
+          "redeemedDate": null,
+          "expiryDate": "2025-06-30",
+          "points": 1000
         }
       ],
       "referrals": []
@@ -304,5 +321,12 @@
       "status": "active"
     }
   ],
-  "auditLog": []
+  "auditLog": [
+    {
+      "timestamp": "2025-09-10T11:40:30.318Z",
+      "action": "Voucher Generated",
+      "details": "TechCorp Dubai redeemed Business Class Upgrade for 1000 points",
+      "user": "Admin"
+    }
+  ]
 }
