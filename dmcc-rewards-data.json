@@ -5,10 +5,10 @@
       "name": "TechCorp Dubai",
       "tier": "gold",
       "points": {
-        "total": 2250,
+        "total": 1650,
         "earned": 3500,
         "bonus": 1000,
-        "burned": 3250,
+        "burned": 3850,
         "purchased": 1000
       },
       "history": [
@@ -67,6 +67,13 @@
           "points": -750,
           "type": "redemption",
           "balance": 2250
+        },
+        {
+          "date": "2025-09-10",
+          "description": "Redeemed: Aquaventure Day Pass",
+          "points": -600,
+          "type": "redemption",
+          "balance": 1650
         }
       ],
       "vouchers": [
@@ -109,6 +116,16 @@
           "redeemedDate": null,
           "expiryDate": "2025-12-31",
           "points": 750
+        },
+        {
+          "code": "DMCC-TECHCORP-MFDWS2Q7",
+          "partner": "Atlantis The Palm",
+          "offer": "Aquaventure Day Pass",
+          "status": "generated",
+          "generatedDate": "2025-09-10",
+          "redeemedDate": null,
+          "expiryDate": "2025-09-30",
+          "points": 600
         }
       ],
       "referrals": []
@@ -372,6 +389,12 @@
       "timestamp": "2025-09-10T11:41:01.665Z",
       "action": "Voucher Generated",
       "details": "TechCorp Dubai redeemed 60-Minute Spa Treatment for 750 points",
+      "user": "Admin"
+    },
+    {
+      "timestamp": "2025-09-10T11:41:03.055Z",
+      "action": "Voucher Generated",
+      "details": "TechCorp Dubai redeemed Aquaventure Day Pass for 600 points",
       "user": "Admin"
     }
   ]
