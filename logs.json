@@ -1,6 +1,53 @@
 {
   "logs": [
     {
+      "id": "log_mfdw2zkp_g5i5w54tx",
+      "timestamp": "2025-09-10T11:21:32.569Z",
+      "userId": "comp001_business_1757503292567",
+      "userName": "Ahmed Al-Rashid",
+      "userRole": "business",
+      "companyId": "comp001",
+      "companyName": "TechCorp Dubai",
+      "action": "user_logout",
+      "description": "User logged out: initialization_error",
+      "entityType": "user",
+      "entityId": "comp001_business_1757503292567",
+      "metadata": {
+        "userId": "comp001_business_1757503292567",
+        "userName": "Ahmed Al-Rashid",
+        "sessionDuration": 2,
+        "reason": "initialization_error"
+      },
+      "ipAddress": "192.168.1.100",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1 Edg/139.0.0.0",
+      "severity": "info",
+      "category": "user_management",
+      "sessionId": "session_mfdw2zkn_nv5do28qj"
+    },
+    {
+      "id": "log_mfdw2zkn_oprk3hqew",
+      "timestamp": "2025-09-10T11:21:32.567Z",
+      "userId": "comp001_business_1757503292567",
+      "userName": "Ahmed Al-Rashid",
+      "userRole": "business",
+      "companyId": "comp001",
+      "companyName": "TechCorp Dubai",
+      "action": "user_login",
+      "description": "User logged in with role: business",
+      "entityType": "user",
+      "entityId": "comp001_business_1757503292567",
+      "metadata": {
+        "role": "business",
+        "companyName": "TechCorp Dubai",
+        "sessionId": "session_mfdw2zkn_nv5do28qj"
+      },
+      "ipAddress": "192.168.1.100",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1 Edg/139.0.0.0",
+      "severity": "info",
+      "category": "user_management",
+      "sessionId": "session_mfdw2zkn_nv5do28qj"
+    },
+    {
       "id": "log_mfdw2qzd_w8yo32ktt",
       "timestamp": "2025-09-10T11:21:21.433Z",
       "userId": "comp001_business_1757503281432",
