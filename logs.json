@@ -1,6 +1,25 @@
 {
   "logs": [
     {
+      "id": "log_mfdwcuky_zbx48n8h0",
+      "timestamp": "2025-09-10T11:29:12.658Z",
+      "userId": "comp001_business_1757503490602",
+      "userName": "Ahmed Al-Rashid",
+      "userRole": "business",
+      "companyId": "comp001",
+      "companyName": "TechCorp Dubai",
+      "action": "data_sync",
+      "description": "All data synchronized to GitHub successfully",
+      "entityType": "system",
+      "entityId": "batch_save",
+      "metadata": {},
+      "ipAddress": "192.168.1.100",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0",
+      "severity": "info",
+      "category": "system_management",
+      "sessionId": "session_mfdw78dm_d2m8fdq9w"
+    },
+    {
       "id": "log_mfdwc75r_1hiv2swjo",
       "timestamp": "2025-09-10T11:28:42.303Z",
       "userId": "comp001_business_1757503490602",
