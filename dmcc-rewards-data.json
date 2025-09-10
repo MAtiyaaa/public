@@ -1,0 +1,308 @@
+{
+  "companies": [
+    {
+      "id": "techcorp",
+      "name": "TechCorp Dubai",
+      "tier": "gold",
+      "points": {
+        "total": 5000,
+        "earned": 3500,
+        "bonus": 1000,
+        "burned": 500,
+        "purchased": 1000
+      },
+      "history": [
+        {
+          "date": "2025-01-15",
+          "description": "Welcome Bonus",
+          "points": 1000,
+          "type": "bonus",
+          "balance": 1000
+        },
+        {
+          "date": "2025-01-20",
+          "description": "Purchase Points",
+          "points": 1000,
+          "type": "purchase",
+          "balance": 2000
+        },
+        {
+          "date": "2025-01-25",
+          "description": "Monthly Reward",
+          "points": 2500,
+          "type": "earned",
+          "balance": 4500
+        },
+        {
+          "date": "2025-02-01",
+          "description": "Tier Upgrade Bonus",
+          "points": 1000,
+          "type": "bonus",
+          "balance": 5500
+        },
+        {
+          "date": "2025-02-05",
+          "description": "Redeemed Dining Voucher",
+          "points": -500,
+          "type": "redemption",
+          "balance": 5000
+        }
+      ],
+      "vouchers": [
+        {
+          "code": "DMCC-TECH-001",
+          "partner": "La Petite Maison",
+          "offer": "20% Off Fine Dining",
+          "status": "redeemed",
+          "generatedDate": "2025-02-01",
+          "redeemedDate": "2025-02-05",
+          "expiryDate": "2025-03-01",
+          "points": 500
+        }
+      ],
+      "referrals": []
+    },
+    {
+      "id": "globaltrade",
+      "name": "Global Trade LLC",
+      "tier": "silver",
+      "points": {
+        "total": 2500,
+        "earned": 2000,
+        "bonus": 500,
+        "burned": 0,
+        "purchased": 0
+      },
+      "history": [
+        {
+          "date": "2025-01-10",
+          "description": "Welcome Bonus",
+          "points": 500,
+          "type": "bonus",
+          "balance": 500
+        },
+        {
+          "date": "2025-01-20",
+          "description": "Monthly Reward",
+          "points": 2000,
+          "type": "earned",
+          "balance": 2500
+        }
+      ],
+      "vouchers": [],
+      "referrals": []
+    },
+    {
+      "id": "premium",
+      "name": "Premium Services",
+      "tier": "platinum",
+      "points": {
+        "total": 10000,
+        "earned": 7000,
+        "bonus": 2000,
+        "burned": 1000,
+        "purchased": 2000
+      },
+      "history": [
+        {
+          "date": "2025-01-05",
+          "description": "Welcome Bonus",
+          "points": 2000,
+          "type": "bonus",
+          "balance": 2000
+        },
+        {
+          "date": "2025-01-15",
+          "description": "Purchase Points",
+          "points": 2000,
+          "type": "purchase",
+          "balance": 4000
+        },
+        {
+          "date": "2025-01-25",
+          "description": "Quarterly Reward",
+          "points": 7000,
+          "type": "earned",
+          "balance": 11000
+        },
+        {
+          "date": "2025-02-01",
+          "description": "Redeemed Travel Package",
+          "points": -1000,
+          "type": "redemption",
+          "balance": 10000
+        }
+      ],
+      "vouchers": [
+        {
+          "code": "DMCC-PREM-001",
+          "partner": "Emirates Airlines",
+          "offer": "Business Class Upgrade",
+          "status": "redeemed",
+          "generatedDate": "2025-01-30",
+          "redeemedDate": "2025-02-01",
+          "expiryDate": "2025-06-30",
+          "points": 1000
+        }
+      ],
+      "referrals": []
+    }
+  ],
+  "partners": [
+    {
+      "id": "p1",
+      "name": "La Petite Maison",
+      "category": "dining",
+      "model": "direct",
+      "status": "active",
+      "email": "contact@lpm.ae"
+    },
+    {
+      "id": "p2",
+      "name": "Emirates Airlines",
+      "category": "travel",
+      "model": "hybrid",
+      "status": "active",
+      "email": "partners@emirates.com"
+    },
+    {
+      "id": "p3",
+      "name": "Dubai Mall",
+      "category": "shopping",
+      "model": "transaction",
+      "status": "active",
+      "email": "rewards@dubaimall.ae"
+    },
+    {
+      "id": "p4",
+      "name": "Atlantis The Palm",
+      "category": "entertainment",
+      "model": "direct",
+      "status": "active",
+      "email": "loyalty@atlantis.ae"
+    },
+    {
+      "id": "p5",
+      "name": "The Spa at Address",
+      "category": "wellness",
+      "model": "direct",
+      "status": "active",
+      "email": "spa@addresshotels.com"
+    }
+  ],
+  "offers": [
+    {
+      "id": "o1",
+      "partnerId": "p1",
+      "title": "20% Off Fine Dining",
+      "description": "Enjoy 20% discount on your total bill at La Petite Maison",
+      "points": 500,
+      "validUntil": "2025-12-31",
+      "status": "active",
+      "tiers": [
+        "silver",
+        "gold",
+        "platinum"
+      ],
+      "category": "dining"
+    },
+    {
+      "id": "o2",
+      "partnerId": "p2",
+      "title": "Business Class Upgrade",
+      "description": "Upgrade to Business Class on selected routes",
+      "points": 1000,
+      "validUntil": "2025-06-30",
+      "status": "active",
+      "tiers": [
+        "gold",
+        "platinum"
+      ],
+      "category": "travel"
+    },
+    {
+      "id": "o3",
+      "partnerId": "p3",
+      "title": "Shopping Voucher AED 200",
+      "description": "Get AED 200 shopping voucher for Dubai Mall",
+      "points": 800,
+      "validUntil": "2025-12-31",
+      "status": "active",
+      "tiers": [
+        "silver",
+        "gold",
+        "platinum"
+      ],
+      "category": "shopping"
+    },
+    {
+      "id": "o4",
+      "partnerId": "p4",
+      "title": "Aquaventure Day Pass",
+      "description": "Full day access to Aquaventure Waterpark",
+      "points": 600,
+      "validUntil": "2025-09-30",
+      "status": "active",
+      "tiers": [
+        "silver",
+        "gold",
+        "platinum"
+      ],
+      "category": "entertainment"
+    },
+    {
+      "id": "o5",
+      "partnerId": "p5",
+      "title": "60-Minute Spa Treatment",
+      "description": "Relaxing spa treatment at The Spa at Address",
+      "points": 750,
+      "validUntil": "2025-12-31",
+      "status": "active",
+      "tiers": [
+        "gold",
+        "platinum"
+      ],
+      "category": "wellness"
+    },
+    {
+      "id": "o6",
+      "partnerId": "p1",
+      "title": "Exclusive Chef Table Experience",
+      "description": "Private chef table for 2 with wine pairing",
+      "points": 1500,
+      "validUntil": "2025-12-31",
+      "status": "active",
+      "tiers": [
+        "platinum"
+      ],
+      "category": "dining"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "c1",
+      "name": "Spring Bonus Campaign",
+      "targetTiers": [
+        "silver",
+        "gold",
+        "platinum"
+      ],
+      "bonusPoints": 500,
+      "startDate": "2025-03-01",
+      "endDate": "2025-03-31",
+      "status": "upcoming"
+    },
+    {
+      "id": "c2",
+      "name": "Platinum Exclusive",
+      "targetTiers": [
+        "platinum"
+      ],
+      "bonusPoints": 1000,
+      "startDate": "2025-02-01",
+      "endDate": "2025-02-28",
+      "status": "active"
+    }
+  ],
+  "auditLog": []
+}
