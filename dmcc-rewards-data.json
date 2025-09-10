@@ -5,10 +5,10 @@
       "name": "TechCorp Dubai",
       "tier": "gold",
       "points": {
-        "total": 1650,
+        "total": 1150,
         "earned": 3500,
         "bonus": 1000,
-        "burned": 3850,
+        "burned": 4350,
         "purchased": 1000
       },
       "history": [
@@ -74,6 +74,13 @@
           "points": -600,
           "type": "redemption",
           "balance": 1650
+        },
+        {
+          "date": "2025-09-10",
+          "description": "Redeemed: 20% Off Fine Dining",
+          "points": -500,
+          "type": "redemption",
+          "balance": 1150
         }
       ],
       "vouchers": [
@@ -126,6 +133,16 @@
           "redeemedDate": null,
           "expiryDate": "2025-09-30",
           "points": 600
+        },
+        {
+          "code": "DMCC-TECHCORP-MFDWS3L8",
+          "partner": "La Petite Maison",
+          "offer": "20% Off Fine Dining",
+          "status": "generated",
+          "generatedDate": "2025-09-10",
+          "redeemedDate": null,
+          "expiryDate": "2025-12-31",
+          "points": 500
         }
       ],
       "referrals": []
@@ -395,6 +412,12 @@
       "timestamp": "2025-09-10T11:41:03.055Z",
       "action": "Voucher Generated",
       "details": "TechCorp Dubai redeemed Aquaventure Day Pass for 600 points",
+      "user": "Admin"
+    },
+    {
+      "timestamp": "2025-09-10T11:41:04.172Z",
+      "action": "Voucher Generated",
+      "details": "TechCorp Dubai redeemed 20% Off Fine Dining for 500 points",
       "user": "Admin"
     }
   ]
