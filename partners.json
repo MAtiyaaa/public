@@ -1,0 +1,260 @@
+{
+  "partners": [
+    {
+      "id": "partner001",
+      "name": "The Emirates Palace Restaurant",
+      "category": "dining",
+      "status": "active",
+      "model": "direct",
+      "description": "Fine dining experience with authentic Middle Eastern cuisine",
+      "logo": "https://via.placeholder.com/150x150?text=EP",
+      "contactInfo": {
+        "person": "Chef Abdullah",
+        "email": "contact@emiratespalace.ae",
+        "phone": "+971-4-555-1001"
+      },
+      "businessInfo": {
+        "licenseNumber": "DED-12345",
+        "tradeLicense": "TL-2023-001",
+        "address": "Sheikh Zayed Road, Dubai",
+        "website": "www.emiratespalace.ae"
+      },
+      "offers": [
+        {
+          "id": "offer001",
+          "title": "20% Off Fine Dining",
+          "description": "Enjoy 20% discount on all main courses",
+          "pointsRequired": 500,
+          "discountPercentage": 20,
+          "validFrom": "2024-01-01",
+          "validUntil": "2024-12-31",
+          "termsAndConditions": "Valid Monday to Thursday only. Cannot be combined with other offers.",
+          "maxRedemptions": 100,
+          "currentRedemptions": 25,
+          "status": "active"
+        },
+        {
+          "id": "offer002",
+          "title": "Free Dessert",
+          "description": "Complimentary dessert with any main course",
+          "pointsRequired": 200,
+          "discountPercentage": 0,
+          "validFrom": "2024-01-01",
+          "validUntil": "2024-06-30",
+          "termsAndConditions": "Valid for dine-in only. One dessert per table.",
+          "maxRedemptions": 200,
+          "currentRedemptions": 78,
+          "status": "active"
+        }
+      ],
+      "createdDate": "2023-01-10",
+      "approvalStatus": "approved",
+      "thresholds": {
+        "direct": {
+          "minPoints": 100,
+          "maxPoints": 1000
+        }
+      }
+    },
+    {
+      "id": "partner002",
+      "name": "Dubai Mall Shopping Center",
+      "category": "retail",
+      "status": "active",
+      "model": "transaction",
+      "description": "Premium shopping destination with over 1200 stores",
+      "logo": "https://via.placeholder.com/150x150?text=DM",
+      "contactInfo": {
+        "person": "Lisa Chen",
+        "email": "partnerships@dubaimall.ae",
+        "phone": "+971-4-555-1002"
+      },
+      "businessInfo": {
+        "licenseNumber": "DED-12346",
+        "tradeLicense": "TL-2023-002",
+        "address": "Downtown Dubai, Dubai",
+        "website": "www.thedubaimall.com"
+      },
+      "offers": [
+        {
+          "id": "offer003",
+          "title": "Shopping Voucher AED 100",
+          "description": "AED 100 shopping voucher valid at participating stores",
+          "pointsRequired": 800,
+          "discountPercentage": 0,
+          "validFrom": "2024-01-01",
+          "validUntil": "2024-12-31",
+          "termsAndConditions": "Valid at participating stores only. Cannot be exchanged for cash.",
+          "maxRedemptions": 500,
+          "currentRedemptions": 156,
+          "status": "active"
+        },
+        {
+          "id": "offer004",
+          "title": "VIP Parking",
+          "description": "Free VIP parking for 4 hours",
+          "pointsRequired": 300,
+          "discountPercentage": 0,
+          "validFrom": "2024-01-01",
+          "validUntil": "2024-12-31",
+          "termsAndConditions": "Valid Monday to Friday. Subject to availability.",
+          "maxRedemptions": 1000,
+          "currentRedemptions": 234,
+          "status": "active"
+        }
+      ],
+      "createdDate": "2023-01-15",
+      "approvalStatus": "approved",
+      "thresholds": {
+        "transaction": {
+          "minTransaction": 100,
+          "pointsPerAED": 1
+        }
+      }
+    },
+    {
+      "id": "partner003",
+      "name": "Emirates Airlines",
+      "category": "travel",
+      "status": "active",
+      "model": "hybrid",
+      "description": "World-class airline with global destinations",
+      "logo": "https://via.placeholder.com/150x150?text=EK",
+      "contactInfo": {
+        "person": "Captain Ahmed",
+        "email": "loyalty@emirates.com",
+        "phone": "+971-4-555-1003"
+      },
+      "businessInfo": {
+        "licenseNumber": "DED-12347",
+        "tradeLicense": "TL-2023-003",
+        "address": "Emirates Headquarters, Dubai",
+        "website": "www.emirates.com"
+      },
+      "offers": [
+        {
+          "id": "offer005",
+          "title": "10% Off Flight Bookings",
+          "description": "10% discount on Economy class bookings",
+          "pointsRequired": 1500,
+          "discountPercentage": 10,
+          "validFrom": "2024-01-01",
+          "validUntil": "2024-12-31",
+          "termsAndConditions": "Valid for Economy class only. Blackout dates apply.",
+          "maxRedemptions": 200,
+          "currentRedemptions": 45,
+          "status": "active"
+        },
+        {
+          "id": "offer006",
+          "title": "Airport Lounge Access",
+          "description": "Complimentary access to Emirates Business Lounge",
+          "pointsRequired": 2000,
+          "discountPercentage": 0,
+          "validFrom": "2024-01-01",
+          "validUntil": "2024-12-31",
+          "termsAndConditions": "Valid for Emirates flights only. One access per voucher.",
+          "maxRedemptions": 100,
+          "currentRedemptions": 12,
+          "status": "active"
+        }
+      ],
+      "createdDate": "2023-02-01",
+      "approvalStatus": "approved",
+      "thresholds": {
+        "hybrid": {
+          "directMin": 500,
+          "directMax": 2500,
+          "transactionMin": 1000,
+          "pointsPerAED": 2
+        }
+      }
+    },
+    {
+      "id": "partner004",
+      "name": "Grand Hyatt Dubai",
+      "category": "entertainment",
+      "status": "pending",
+      "model": "direct",
+      "description": "Luxury hotel and spa experience",
+      "logo": "https://via.placeholder.com/150x150?text=GH",
+      "contactInfo": {
+        "person": "Maria Rodriguez",
+        "email": "loyalty@grandhyatt.ae",
+        "phone": "+971-4-555-1004"
+      },
+      "businessInfo": {
+        "licenseNumber": "DED-12348",
+        "tradeLicense": "TL-2023-004",
+        "address": "Bur Dubai, Dubai",
+        "website": "www.hyatt.com/grandhyatt"
+      },
+      "offers": [
+        {
+          "id": "offer007",
+          "title": "Spa Package Discount",
+          "description": "25% off premium spa packages",
+          "pointsRequired": 1200,
+          "discountPercentage": 25,
+          "validFrom": "2024-03-01",
+          "validUntil": "2024-12-31",
+          "termsAndConditions": "Advance booking required. Valid Monday to Friday.",
+          "maxRedemptions": 50,
+          "currentRedemptions": 0,
+          "status": "pending"
+        }
+      ],
+      "createdDate": "2024-02-10",
+      "approvalStatus": "pending",
+      "thresholds": {
+        "direct": {
+          "minPoints": 200,
+          "maxPoints": 1500
+        }
+      }
+    },
+    {
+      "id": "partner005",
+      "name": "TechZone Electronics",
+      "category": "retail",
+      "status": "active",
+      "model": "transaction",
+      "description": "Latest electronics and gadgets",
+      "logo": "https://via.placeholder.com/150x150?text=TZ",
+      "contactInfo": {
+        "person": "David Kim",
+        "email": "sales@techzone.ae",
+        "phone": "+971-4-555-1005"
+      },
+      "businessInfo": {
+        "licenseNumber": "DED-12349",
+        "tradeLicense": "TL-2023-005",
+        "address": "DIFC, Dubai",
+        "website": "www.techzone.ae"
+      },
+      "offers": [
+        {
+          "id": "offer008",
+          "title": "Electronics Voucher AED 200",
+          "description": "AED 200 voucher for electronics purchase",
+          "pointsRequired": 1600,
+          "discountPercentage": 0,
+          "validFrom": "2024-01-01",
+          "validUntil": "2024-12-31",
+          "termsAndConditions": "Valid on purchases above AED 500. Cannot be combined.",
+          "maxRedemptions": 300,
+          "currentRedemptions": 89,
+          "status": "active"
+        }
+      ],
+      "createdDate": "2023-03-15",
+      "approvalStatus": "approved",
+      "thresholds": {
+        "transaction": {
+          "minTransaction": 200,
+          "pointsPerAED": 1.5
+        }
+      }
+    }
+  ]
+}
