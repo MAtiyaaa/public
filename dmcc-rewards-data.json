@@ -5,10 +5,10 @@
       "name": "TechCorp Dubai",
       "tier": "gold",
       "points": {
-        "total": 3000,
+        "total": 2250,
         "earned": 3500,
         "bonus": 1000,
-        "burned": 2500,
+        "burned": 3250,
         "purchased": 1000
       },
       "history": [
@@ -60,6 +60,13 @@
           "points": -1000,
           "type": "redemption",
           "balance": 3000
+        },
+        {
+          "date": "2025-09-10",
+          "description": "Redeemed: 60-Minute Spa Treatment",
+          "points": -750,
+          "type": "redemption",
+          "balance": 2250
         }
       ],
       "vouchers": [
@@ -92,6 +99,16 @@
           "redeemedDate": null,
           "expiryDate": "2025-06-30",
           "points": 1000
+        },
+        {
+          "code": "DMCC-TECHCORP-MFDWS1NL",
+          "partner": "The Spa at Address",
+          "offer": "60-Minute Spa Treatment",
+          "status": "generated",
+          "generatedDate": "2025-09-10",
+          "redeemedDate": null,
+          "expiryDate": "2025-12-31",
+          "points": 750
         }
       ],
       "referrals": []
@@ -349,6 +366,12 @@
       "timestamp": "2025-09-10T11:40:37.828Z",
       "action": "Voucher Generated",
       "details": "TechCorp Dubai redeemed Business Class Upgrade for 1000 points",
+      "user": "Admin"
+    },
+    {
+      "timestamp": "2025-09-10T11:41:01.665Z",
+      "action": "Voucher Generated",
+      "details": "TechCorp Dubai redeemed 60-Minute Spa Treatment for 750 points",
       "user": "Admin"
     }
   ]
