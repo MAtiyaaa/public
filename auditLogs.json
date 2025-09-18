@@ -1,0 +1,32 @@
+[
+  {
+    "id": "log1",
+    "userId": "user1",
+    "username": "admin",
+    "action": "Created new partner",
+    "targetId": "partner3",
+    "targetName": "Tech Gadgets Store",
+    "timestamp": "2023-10-15T10:30:00Z",
+    "details": "Added new partner with Hybrid partnership model"
+  },
+  {
+    "id": "log2",
+    "userId": "user3",
+    "username": "techuser",
+    "action": "Redeemed voucher",
+    "targetId": "voucher2",
+    "targetName": "GOURMET-TECH456",
+    "timestamp": "2023-10-10T14:20:00Z",
+    "details": "Redeemed voucher for Complimentary Dessert"
+  },
+  {
+    "id": "log3",
+    "userId": "user1",
+    "username": "admin",
+    "action": "Created campaign",
+    "targetId": "campaign1",
+    "targetName": "Double Points October",
+    "timestamp": "2023-09-30T09:15:00Z",
+    "details": "Created new campaign with double points multiplier"
+  }
+]
