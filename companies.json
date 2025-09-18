@@ -1,0 +1,134 @@
+[
+  {
+    "id": "company1",
+    "name": "Tech Solutions Inc.",
+    "email": "contact@techsolutions.com",
+    "phone": "+971-4-1234567",
+    "industry": "technology",
+    "address": "Dubai, UAE",
+    "registrationDate": "2023-01-15",
+    "tier": "Silver",
+    "points": {
+      "earned": 1500,
+      "burned": 700,
+      "bonus": 300,
+      "purchased": 500,
+      "expiring": 200,
+      "expiryDate": "2023-12-31"
+    },
+    "transactions": [
+      {
+        "date": "2023-10-15",
+        "description": "Purchase at Partner A",
+        "type": "earn",
+        "points": 100
+      },
+      {
+        "date": "2023-10-10",
+        "description": "Redeemed Voucher",
+        "type": "burn",
+        "points": 50
+      },
+      {
+        "date": "2023-10-05",
+        "description": "Referral Bonus",
+        "type": "bonus",
+        "points": 50
+      },
+      {
+        "date": "2023-10-01",
+        "description": "Points Purchase",
+        "type": "purchase",
+        "points": 100
+      }
+    ]
+  },
+  {
+    "id": "company2",
+    "name": "Global Trading Co.",
+    "email": "info@globaltrading.com",
+    "phone": "+971-4-7654321",
+    "industry": "finance",
+    "address": "Dubai, UAE",
+    "registrationDate": "2022-05-20",
+    "tier": "Gold",
+    "points": {
+      "earned": 3500,
+      "burned": 1500,
+      "bonus": 700,
+      "purchased": 1000,
+      "expiring": 500,
+      "expiryDate": "2023-12-15"
+    },
+    "transactions": [
+      {
+        "date": "2023-10-14",
+        "description": "Purchase at Partner B",
+        "type": "earn",
+        "points": 200
+      },
+      {
+        "date": "2023-10-08",
+        "description": "Redeemed Voucher",
+        "type": "burn",
+        "points": 150
+      },
+      {
+        "date": "2023-10-03",
+        "description": "Campaign Bonus",
+        "type": "bonus",
+        "points": 100
+      },
+      {
+        "date": "2023-10-01",
+        "description": "Points Purchase",
+        "type": "purchase",
+        "points": 200
+      }
+    ]
+  },
+  {
+    "id": "company3",
+    "name": "Premium Retail Ltd.",
+    "email": "hello@premiumretail.com",
+    "phone": "+971-4-1122334",
+    "industry": "retail",
+    "address": "Dubai, UAE",
+    "registrationDate": "2021-11-10",
+    "tier": "Platinum",
+    "points": {
+      "earned": 7500,
+      "burned": 3000,
+      "bonus": 1500,
+      "purchased": 2000,
+      "expiring": 1000,
+      "expiryDate": "2023-12-20"
+    },
+    "transactions": [
+      {
+        "date": "2023-10-13",
+        "description": "Purchase at Partner C",
+        "type": "earn",
+        "points": 300
+      },
+      {
+        "date": "2023-10-07",
+        "description": "Redeemed Voucher",
+        "type": "burn",
+        "points": 250
+      },
+      {
+        "date": "2023-10-02",
+        "description": "Tier Upgrade Bonus",
+        "type": "bonus",
+        "points": 200
+      },
+      {
+        "date": "2023-10-01",
+        "description": "Points Purchase",
+        "type": "purchase",
+        "points": 300
+      }
+    ]
+  }
+]
