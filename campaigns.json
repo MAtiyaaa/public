@@ -1,0 +1,47 @@
+[
+  {
+    "id": "campaign1",
+    "name": "Double Points October",
+    "description": "Earn double points on all purchases during October",
+    "startDate": "2023-10-01",
+    "endDate": "2023-10-31",
+    "status": "active",
+    "targetTier": "all",
+    "assignedCompanies": [
+      "company1",
+      "company2",
+      "company3"
+    ],
+    "pointsMultiplier": 2
+  },
+  {
+    "id": "campaign2",
+    "name": "Platinum Exclusive",
+    "description": "Exclusive offers for Platinum tier members",
+    "startDate": "2023-11-01",
+    "endDate": "2023-11-30",
+    "status": "scheduled",
+    "targetTier": "Platinum",
+    "assignedCompanies": [
+      "company3"
+    ],
+    "specialOffers": [
+      "VIP event access",
+      "Personal concierge service"
+    ]
+  },
+  {
+    "id": "campaign3",
+    "name": "New Partner Launch",
+    "description": "Bonus points for trying our new partners",
+    "startDate": "2023-09-15",
+    "endDate": "2023-10-15",
+    "status": "completed",
+    "targetTier": "all",
+    "assignedCompanies": [
+      "company1",
+      "company2"
+    ],
+    "bonusPoints": 250
+  }
+]
