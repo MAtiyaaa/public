@@ -28,5 +28,15 @@
     "targetName": "Double Points October",
     "timestamp": "2023-09-30T09:15:00Z",
     "details": "Created new campaign with double points multiplier"
+  },
+  {
+    "id": "log4",
+    "userId": null,
+    "username": "Tech Solutions Inc.",
+    "action": "User login",
+    "targetId": "company1",
+    "targetName": "Tech Solutions Inc.",
+    "timestamp": "2025-09-18T08:52:27.137Z",
+    "details": "User logged in as Tech Solutions Inc."
   }
 ]
